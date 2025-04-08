@@ -74,4 +74,21 @@ python main.py
 - **Efficiency**: SVD helps reduce dimensionality and improve computational speed.
 - **Further Work**: Try other dimensionality reduction techniques or advanced ML models to enhance accuracy.
 
+1. **Singular Value Plot**  
+   A plot showing how the singular values decrease with increasing index. This demonstrates how much variance each singular value explains in the digit images.  
+   ![Singular Values](singular_values.png)
+
+2. **Singular Value Images for Digits 3 and 8**  
+   Here are visualizations of the singular value images for digits 3 and 8. These images represent the most significant features captured by the first few singular vectors.  
+   ![Singular Images for Digit 3](singular_images_digit_3.png)  
+   ![Singular Images for Digit 8](singular_images_digit_8.png)
+   
+3. **SVD-based Classification Accuracy Per Digit**  
+   The accuracy of classification for each digit as a function of the number of singular values retained.  
+   ![SVD-based Classification Accuracy Per Digit](SVD_classification_accuracy_per_digit.png)
+
+4. **Overall Classification Accuracy**  
+   The classification accuracy across all digits as a function of the number of singular values retained.  
+   ![SVD-based Classification Overall Accuracy](SVD-based_Classification_Overall_Accuracy.png)
+
 ---
